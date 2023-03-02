@@ -1,6 +1,6 @@
 # Maintainer: Jacob Kauffmann <jacob@system76.com>
 pkgname=cosmic-applibrary
-pkgver=git
+pkgver=r94.f0753df
 pkgrel=1
 epoch=
 pkgdesc=""
@@ -35,7 +35,7 @@ pkgver() {
 
 build() {
 	cd "$pkgname"
-	just all
+	just build-release
 }
 
 check() {
