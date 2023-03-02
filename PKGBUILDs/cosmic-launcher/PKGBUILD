@@ -35,7 +35,7 @@ pkgver() {
 
 build() {
 	cd "$pkgname"
-	just all
+	just build-release
 }
 
 check() {
